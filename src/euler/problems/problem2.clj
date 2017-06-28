@@ -2,7 +2,7 @@
 
 (defn fibonacci-generate-next-num-before-even
   [prev-even num-before-prev-even]
-  (+ (* 2 prev-even) num-before-prev-even))
+  (+ prev-even prev-even num-before-prev-even))
 
 (defn fibonacci-generate-even-collection-uppon
   [border]
